@@ -7,7 +7,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Генератор імен',
+      title: 'Генератор слів',
       home: RandomWords(),
     );
   }
@@ -25,7 +25,7 @@ class RandomWordsState extends State<RandomWords> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Генератор імен'),
+        title: Text('Генератор слів'),
       ),
       body: _buildSuggestions(),
     );
